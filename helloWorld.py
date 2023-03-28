@@ -1,2 +1,4 @@
-userName = input ("Hello! Please enter you name!")
-print ("Hello", userName, "nice to meet you")
+userName = input("Hello! Please enter your facebook username! ")
+userPassword = input("Hello! Please enter your facebook password! ")
+if(userName.lower() == "jake" and userPassword == "jakekrusz"): print("Welcome to facebook!")
+else: print("Wrong credentials, try again!")
